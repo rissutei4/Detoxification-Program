@@ -1,0 +1,200 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("../fonts/SofiaProRegular.eot");
+  src: url("../fonts/SofiaProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProRegular.woff2") format("woff2"), url("../fonts/SofiaProRegular.woff") format("woff"), url("../fonts/SofiaProRegular.ttf") format("truetype"), url("../fonts/SofiaProRegular.svg#SofiaProRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Sofia Pro Bold';
+  src: url("../fonts/SofiaProBold.eot");
+  src: url("../fonts/SofiaProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProBold.woff2") format("woff2"), url("../fonts/SofiaProBold.woff") format("woff"), url("../fonts/SofiaProBold.ttf") format("truetype"), url("../fonts/SofiaProBold.svg#SofiaProBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+.followGuidelines {
+  margin-bottom: 20px; }
+  .followGuidelines .greyBorderBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    width: 895px;
+    background: #F3F4F6;
+    border-radius: 30px;
+    flex: none;
+    order: 14;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0; }
+    .followGuidelines .greyBorderBox.rm {
+      margin: 0; }
+    .followGuidelines .greyBorderBox .allContent {
+      width: 855px;
+      background: #FFFFFF;
+      box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start; }
+      .followGuidelines .greyBorderBox .allContent .frstColmn, .followGuidelines .greyBorderBox .allContent .scndColmn {
+        display: flex;
+        flex-direction: column;
+        max-width: 427px; }
+      .followGuidelines .greyBorderBox .allContent .frstColmnHeading {
+        padding: 30px 30px 82px 30px;
+        border-bottom: 1px solid #E0EAEF;
+        border-top-left-radius: 18px; }
+      .followGuidelines .greyBorderBox .allContent .scndColmnHeading {
+        padding: 30px 30px 34px 30px;
+        border-bottom: 1px solid #E0EAEF;
+        border-left: 1px solid #E0EAEF; }
+      .followGuidelines .greyBorderBox .allContent .frstColmnHeading, .followGuidelines .greyBorderBox .allContent .scndColmnHeading p {
+        color: #56666D;
+        font-family: "Sofia Pro", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%; }
+      .followGuidelines .greyBorderBox .allContent .scndColmnContent {
+        border-left: 1px solid #E0EAEF;
+        border-top: 1px solid #E0EAEF; }
+      .followGuidelines .greyBorderBox .allContent .frstColmnContent, .followGuidelines .greyBorderBox .allContent .scndColmnContent {
+        border-top: 1px solid #E0EAEF;
+        padding: 30px 0 35px 30px; }
+        .followGuidelines .greyBorderBox .allContent .frstColmnContent ul.listOfProds, .followGuidelines .greyBorderBox .allContent .scndColmnContent ul.listOfProds {
+          margin: 0; }
+          .followGuidelines .greyBorderBox .allContent .frstColmnContent ul.listOfProds li, .followGuidelines .greyBorderBox .allContent .scndColmnContent ul.listOfProds li {
+            font-family: "Sofia Pro", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 240%;
+            letter-spacing: 0.5px;
+            color: #56666D; }
+  .followGuidelines .ElmnBlock .ElmnHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 27px; }
+    .followGuidelines .ElmnBlock .ElmnHeading .headIcon {
+      margin: 0 10px; }
+    .followGuidelines .ElmnBlock .ElmnHeading h3 {
+      margin: 0 10px;
+      font-family: "Sofia Pro", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 125%;
+      color: #DD4C56;
+      font-feature-settings: 'liga' off; }
+  .followGuidelines .ElmnBlock ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .followGuidelines .ElmnBlock ul li {
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+      border-radius: 20px;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-family: "Sofia Pro", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D; }
+      .followGuidelines .ElmnBlock ul li:last-of-type {
+        margin-bottom: 0; }
+      .followGuidelines .ElmnBlock ul li span {
+        font-family: "Sofia Pro Bold", sans-serif;
+        font-size: 32px;
+        line-height: 125%;
+        color: #DD4C56;
+        margin-right: 30px; }
+      .followGuidelines .ElmnBlock ul li .dontIcon {
+        margin-right: 30px; }
+
+.detoxProgram .mainInfo h3 {
+  font-family: "Sofia Pro Bold", sans-serif;
+  font-size: 32px;
+  line-height: 125%;
+  color: #56666D;
+  margin-bottom: 20px; }
+.detoxProgram .mainInfo p.schedule {
+  font-family: "Sofia Pro Bold", sans-serif;
+  color: #56666D;
+  font-size: 18px;
+  line-height: 125%;
+  margin-bottom: 20px; }
+.detoxProgram .mainInfo h4 {
+  font-family: "Sofia Pro Bold", sans-serif;
+  font-size: 18px;
+  line-height: 125%;
+  color: #00AA77;
+  margin-bottom: 20px; }
+.detoxProgram .mainInfo p {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #56666D; }
+.detoxProgram .exampleMeal h3 {
+  font-family: "Sofia Pro Bold", sans-serif;
+  font-size: 18px;
+  line-height: 125%;
+  color: #56666D;
+  margin-bottom: 20px; }
+.detoxProgram .exampleMeal .greyBorderBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  width: 895px;
+  background: #F3F4F6;
+  border-radius: 30px;
+  flex: none;
+  order: 14;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0; }
+  .detoxProgram .exampleMeal .greyBorderBox.rm {
+    margin: 0; }
+.detoxProgram .exampleMeal .mainContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  background: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+  border-radius: 20px;
+  width: 855px; }
+  .detoxProgram .exampleMeal .mainContent .smallColumn {
+    border-right: 1px solid #E0EAEF; }
+    .detoxProgram .exampleMeal .mainContent .smallColumn.borderRemove {
+      border-right: 0; }
+    .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
+      border-bottom: 2px solid #E0EAEF;
+      display: flex;
+      flex-direction: row;
+      padding: 28px 20px;
+      align-items: baseline; }
+      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading h3 {
+        margin-right: 12px;
+        font-family: "Sofia Pro Bold", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        width: 123px; }
+    .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p {
+      font-family: "Sofia Pro", sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      color: #56666D;
+      padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
