@@ -226,11 +226,12 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
       background: #FFFFFF;
       box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
       border-radius: 20px;
-      width: 855px;
+      max-width: 855px;
 
 
       .smallColumn {
         border-right: 1px solid #E0EAEF;
+        max-width: 213px;
 
         &.borderRemove {
           border-right: 0;
@@ -251,13 +252,18 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
             width: 123px;
           }
         }
-        .colmnContent{
+
+        .colmnContent {
           p {
             font-family: $sfPro;
             font-size: 16px;
             line-height: 150%;
             color: #56666D;
             padding: 20px;
+
+            span {
+              color: #00AA77;
+            }
           }
         }
       }

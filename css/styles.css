@@ -173,9 +173,10 @@
   background: #FFFFFF;
   box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
   border-radius: 20px;
-  width: 855px; }
+  max-width: 855px; }
   .detoxProgram .exampleMeal .mainContent .smallColumn {
-    border-right: 1px solid #E0EAEF; }
+    border-right: 1px solid #E0EAEF;
+    max-width: 213px; }
     .detoxProgram .exampleMeal .mainContent .smallColumn.borderRemove {
       border-right: 0; }
     .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
@@ -196,5 +197,7 @@
       line-height: 150%;
       color: #56666D;
       padding: 20px; }
+      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p span {
+        color: #00AA77; }
 
 /*# sourceMappingURL=styles.css.map */
