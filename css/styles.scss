@@ -8,18 +8,14 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
 .followGuidelines {
   margin-bottom: 20px;
 
-  .greyBorderBox {
+  .greyBorder {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 20px;
-    width: 895px;
+    max-width: 895px;
     background: #F3F4F6;
     border-radius: 30px;
-    flex: none;
-    order: 14;
-    align-self: stretch;
-    flex-grow: 0;
     margin: 20px 0;
 
     &.rm {
@@ -41,19 +37,20 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
         flex-direction: column;
         max-width: 427px;
       }
-      .scndColmn{
+
+      .scndColmn {
         border-left: 1px solid #E0EAEF;
       }
 
       .frstColmnHeading {
         padding: 30px 30px 82px 30px;
-        border-bottom: 1px solid #E0EAEF;
+        border-bottom: 2px solid #E0EAEF;
         border-top-left-radius: 18px;
       }
 
       .scndColmnHeading {
         padding: 30px 30px 34px 30px;
-        border-bottom: 1px solid #E0EAEF;
+        border-bottom: 2px solid #E0EAEF;
       }
 
       .frstColmnHeading, .scndColmnHeading p {
@@ -65,12 +62,7 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
         line-height: 150%;
       }
 
-      .scndColmnContent {
-        border-top: 1px solid #E0EAEF;
-      }
-
       .frstColmnContent, .scndColmnContent {
-        border-top: 1px solid #E0EAEF;
         padding: 30px 0 35px 30px;
 
         ul.listOfProds {
@@ -158,6 +150,8 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
 }
 
 .detoxProgram {
+  margin-bottom: 20px;
+
   .mainInfo {
     h3 {
       font-family: $sfProBold;
@@ -201,18 +195,14 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
       margin-bottom: 20px;
     }
 
-    .greyBorderBox {
+    .greyBorder {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       padding: 20px;
-      width: 895px;
+      max-width: 895px;
       background: #F3F4F6;
       border-radius: 30px;
-      flex: none;
-      order: 14;
-      align-self: stretch;
-      flex-grow: 0;
       margin: 20px 0;
 
       &.rm {
@@ -245,13 +235,13 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
           flex-direction: row;
           padding: 28px 20px;
           align-items: baseline;
+          justify-content: space-around;
 
           h3 {
             margin-right: 12px;
             font-family: $sfProBold;
             font-size: 16px;
             line-height: 150%;
-            width: 123px;
           }
         }
 
@@ -267,6 +257,102 @@ $sfProBold: 'Sofia Pro Bold', sans-serif;
               color: #00AA77;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+.detoxMenu {
+  .greenBorder {
+    background: #00AA77;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 895px;
+  }
+
+  h3 {
+    font-family: $sfProBold;
+    font-size: 32px;
+    line-height: 125%;
+    color: #FFFFFF;
+    padding: 30px;
+  }
+
+  .mealContentF, .mealContentS {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    max-width: 855px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+    .mealColumn {
+      border-right: 1px solid #E0EAEF;
+
+      &:last-of-type {
+        border: none;
+      }
+
+      .mealHeading {
+        border-bottom: 2px solid #E0EAEF;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        min-width: 284px;
+        max-width: 285px;
+        padding: 30px;
+
+        &.lP {
+          padding-bottom: 6px;
+        }
+
+        h3 {
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #56666D;
+          padding: 0;
+        }
+      }
+
+      .mealColmnContent {
+        padding: 30px;
+
+        ul {
+          li {
+            font-family: $sfPro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #56666D;
+          }
+        }
+
+        p {
+          font-family: $sfPro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #56666D;
+        }
+
+        h4 {
+          font-family: $sfProBold;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #56666D;
         }
       }
     }

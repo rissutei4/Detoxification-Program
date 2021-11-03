@@ -16,22 +16,18 @@
   font-display: swap; }
 .followGuidelines {
   margin-bottom: 20px; }
-  .followGuidelines .greyBorderBox {
+  .followGuidelines .greyBorder {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 20px;
-    width: 895px;
+    max-width: 895px;
     background: #F3F4F6;
     border-radius: 30px;
-    flex: none;
-    order: 14;
-    align-self: stretch;
-    flex-grow: 0;
     margin: 20px 0; }
-    .followGuidelines .greyBorderBox.rm {
+    .followGuidelines .greyBorder.rm {
       margin: 0; }
-    .followGuidelines .greyBorderBox .allContent {
+    .followGuidelines .greyBorder .allContent {
       width: 855px;
       background: #FFFFFF;
       box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
@@ -39,34 +35,31 @@
       display: flex;
       flex-direction: row;
       align-items: flex-start; }
-      .followGuidelines .greyBorderBox .allContent .frstColmn, .followGuidelines .greyBorderBox .allContent .scndColmn {
+      .followGuidelines .greyBorder .allContent .frstColmn, .followGuidelines .greyBorder .allContent .scndColmn {
         display: flex;
         flex-direction: column;
         max-width: 427px; }
-      .followGuidelines .greyBorderBox .allContent .scndColmn {
+      .followGuidelines .greyBorder .allContent .scndColmn {
         border-left: 1px solid #E0EAEF; }
-      .followGuidelines .greyBorderBox .allContent .frstColmnHeading {
+      .followGuidelines .greyBorder .allContent .frstColmnHeading {
         padding: 30px 30px 82px 30px;
-        border-bottom: 1px solid #E0EAEF;
+        border-bottom: 2px solid #E0EAEF;
         border-top-left-radius: 18px; }
-      .followGuidelines .greyBorderBox .allContent .scndColmnHeading {
+      .followGuidelines .greyBorder .allContent .scndColmnHeading {
         padding: 30px 30px 34px 30px;
-        border-bottom: 1px solid #E0EAEF; }
-      .followGuidelines .greyBorderBox .allContent .frstColmnHeading, .followGuidelines .greyBorderBox .allContent .scndColmnHeading p {
+        border-bottom: 2px solid #E0EAEF; }
+      .followGuidelines .greyBorder .allContent .frstColmnHeading, .followGuidelines .greyBorder .allContent .scndColmnHeading p {
         color: #56666D;
         font-family: "Sofia Pro", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 150%; }
-      .followGuidelines .greyBorderBox .allContent .scndColmnContent {
-        border-top: 1px solid #E0EAEF; }
-      .followGuidelines .greyBorderBox .allContent .frstColmnContent, .followGuidelines .greyBorderBox .allContent .scndColmnContent {
-        border-top: 1px solid #E0EAEF;
+      .followGuidelines .greyBorder .allContent .frstColmnContent, .followGuidelines .greyBorder .allContent .scndColmnContent {
         padding: 30px 0 35px 30px; }
-        .followGuidelines .greyBorderBox .allContent .frstColmnContent ul.listOfProds, .followGuidelines .greyBorderBox .allContent .scndColmnContent ul.listOfProds {
+        .followGuidelines .greyBorder .allContent .frstColmnContent ul.listOfProds, .followGuidelines .greyBorder .allContent .scndColmnContent ul.listOfProds {
           margin: 0; }
-          .followGuidelines .greyBorderBox .allContent .frstColmnContent ul.listOfProds li, .followGuidelines .greyBorderBox .allContent .scndColmnContent ul.listOfProds li {
+          .followGuidelines .greyBorder .allContent .frstColmnContent ul.listOfProds li, .followGuidelines .greyBorder .allContent .scndColmnContent ul.listOfProds li {
             font-family: "Sofia Pro", sans-serif;
             font-style: normal;
             font-weight: normal;
@@ -121,84 +114,151 @@
       .followGuidelines .ElmnBlock ul li .dontIcon {
         margin-right: 30px; }
 
-.detoxProgram .mainInfo h3 {
+.detoxProgram {
+  margin-bottom: 20px; }
+  .detoxProgram .mainInfo h3 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 32px;
+    line-height: 125%;
+    color: #56666D;
+    margin-bottom: 20px; }
+  .detoxProgram .mainInfo p.schedule {
+    font-family: "Sofia Pro Bold", sans-serif;
+    color: #56666D;
+    font-size: 18px;
+    line-height: 125%;
+    margin-bottom: 20px; }
+  .detoxProgram .mainInfo h4 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 18px;
+    line-height: 125%;
+    color: #00AA77;
+    margin-bottom: 20px; }
+  .detoxProgram .mainInfo p {
+    font-family: "Sofia Pro", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #56666D;
+    max-width: 895px; }
+  .detoxProgram .exampleMeal h3 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 18px;
+    line-height: 125%;
+    color: #56666D;
+    margin-bottom: 20px; }
+  .detoxProgram .exampleMeal .greyBorder {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 895px;
+    background: #F3F4F6;
+    border-radius: 30px;
+    margin: 20px 0; }
+    .detoxProgram .exampleMeal .greyBorder.rm {
+      margin: 0; }
+  .detoxProgram .exampleMeal .mainContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    background: #FFFFFF;
+    box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+    border-radius: 20px;
+    max-width: 855px; }
+    .detoxProgram .exampleMeal .mainContent .smallColumn {
+      border-right: 1px solid #E0EAEF;
+      max-width: 213px; }
+      .detoxProgram .exampleMeal .mainContent .smallColumn.borderRemove {
+        border-right: 0; }
+      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
+        border-bottom: 2px solid #E0EAEF;
+        display: flex;
+        flex-direction: row;
+        padding: 28px 20px;
+        align-items: baseline;
+        justify-content: space-around; }
+        .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading h3 {
+          margin-right: 12px;
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 16px;
+          line-height: 150%; }
+      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p {
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: #56666D;
+        padding: 20px; }
+        .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p span {
+          color: #00AA77; }
+
+.detoxMenu .greenBorder {
+  background: #00AA77;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 895px; }
+.detoxMenu h3 {
   font-family: "Sofia Pro Bold", sans-serif;
   font-size: 32px;
   line-height: 125%;
-  color: #56666D;
-  margin-bottom: 20px; }
-.detoxProgram .mainInfo p.schedule {
-  font-family: "Sofia Pro Bold", sans-serif;
-  color: #56666D;
-  font-size: 18px;
-  line-height: 125%;
-  margin-bottom: 20px; }
-.detoxProgram .mainInfo h4 {
-  font-family: "Sofia Pro Bold", sans-serif;
-  font-size: 18px;
-  line-height: 125%;
-  color: #00AA77;
-  margin-bottom: 20px; }
-.detoxProgram .mainInfo p {
-  font-family: "Sofia Pro", sans-serif;
-  font-size: 16px;
-  line-height: 150%;
-  color: #56666D;
-  max-width: 895px; }
-.detoxProgram .exampleMeal h3 {
-  font-family: "Sofia Pro Bold", sans-serif;
-  font-size: 18px;
-  line-height: 125%;
-  color: #56666D;
-  margin-bottom: 20px; }
-.detoxProgram .exampleMeal .greyBorderBox {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px;
-  width: 895px;
-  background: #F3F4F6;
-  border-radius: 30px;
-  flex: none;
-  order: 14;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 20px 0; }
-  .detoxProgram .exampleMeal .greyBorderBox.rm {
-    margin: 0; }
-.detoxProgram .exampleMeal .mainContent {
+  color: #FFFFFF;
+  padding: 30px; }
+.detoxMenu .mealContentF, .detoxMenu .mealContentS {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0;
+  max-width: 855px;
   background: #FFFFFF;
   box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
   border-radius: 20px;
-  max-width: 855px; }
-  .detoxProgram .exampleMeal .mainContent .smallColumn {
-    border-right: 1px solid #E0EAEF;
-    max-width: 213px; }
-    .detoxProgram .exampleMeal .mainContent .smallColumn.borderRemove {
-      border-right: 0; }
-    .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
+  margin-bottom: 10px; }
+  .detoxMenu .mealContentF .mealColumn, .detoxMenu .mealContentS .mealColumn {
+    border-right: 1px solid #E0EAEF; }
+    .detoxMenu .mealContentF .mealColumn:last-of-type, .detoxMenu .mealContentS .mealColumn:last-of-type {
+      border: none; }
+    .detoxMenu .mealContentF .mealColumn .mealHeading, .detoxMenu .mealContentS .mealColumn .mealHeading {
       border-bottom: 2px solid #E0EAEF;
       display: flex;
       flex-direction: row;
-      padding: 28px 20px;
-      align-items: baseline; }
-      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading h3 {
-        margin-right: 12px;
-        font-family: "Sofia Pro Bold", sans-serif;
+      align-items: baseline;
+      min-width: 284px;
+      max-width: 285px;
+      padding: 30px; }
+      .detoxMenu .mealContentF .mealColumn .mealHeading.lP, .detoxMenu .mealContentS .mealColumn .mealHeading.lP {
+        padding-bottom: 6px; }
+      .detoxMenu .mealContentF .mealColumn .mealHeading h3, .detoxMenu .mealContentS .mealColumn .mealHeading h3 {
+        font-family: "Sofia Pro", sans-serif;
         font-size: 16px;
         line-height: 150%;
-        width: 123px; }
-    .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p {
-      font-family: "Sofia Pro", sans-serif;
-      font-size: 16px;
-      line-height: 150%;
-      color: #56666D;
-      padding: 20px; }
-      .detoxProgram .exampleMeal .mainContent .smallColumn .colmnContent p span {
-        color: #00AA77; }
+        letter-spacing: 0.5px;
+        color: #56666D;
+        padding: 0; }
+    .detoxMenu .mealContentF .mealColumn .mealColmnContent, .detoxMenu .mealContentS .mealColumn .mealColmnContent {
+      padding: 30px; }
+      .detoxMenu .mealContentF .mealColumn .mealColmnContent ul li, .detoxMenu .mealContentS .mealColumn .mealColmnContent ul li {
+        font-family: "Sofia Pro", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #56666D; }
+      .detoxMenu .mealContentF .mealColumn .mealColmnContent p, .detoxMenu .mealContentS .mealColumn .mealColmnContent p {
+        font-family: "Sofia Pro", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #56666D; }
+      .detoxMenu .mealContentF .mealColumn .mealColmnContent h4, .detoxMenu .mealContentS .mealColumn .mealColmnContent h4 {
+        font-family: "Sofia Pro Bold", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #56666D; }
 
 /*# sourceMappingURL=styles.css.map */

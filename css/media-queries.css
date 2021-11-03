@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+  .followGuidelines .greyBorder .allContent .frstColmnHeading {
+    padding-bottom: 58px; }
+
+  .detoxMenu .mealContentF .mealColumn .mealHeading {
+    min-width: 197px;
+    max-width: 285px; }
+  .detoxMenu .mealContentF .mealColumn:nth-of-type(2) .mealHeading {
+    padding-bottom: 6px; }
+  .detoxMenu .mealContentF .mealColumn .mealColmnContent {
+    padding-left: 0; }
+  .detoxMenu .mealContentF .mealColumn:last-of-type .mealColmnContent {
+    padding-left: 30px; }
+
+  .detoxMenu .mealContentS .mealColumn .mealHeading {
+    min-width: 197px;
+    max-width: 285px; }
+  .detoxMenu .mealContentS .mealColumn:last-of-type .mealHeading {
+    padding-bottom: 6px; } }
+@media only screen and (max-width: 426px) {
+  .followGuidelines .allContent .frstColmnHeading {
+    padding: 30px !important; }
+  .followGuidelines .allContent .scndColmnHeading {
+    padding: 30px !important;
+    border-top: 1px solid #E0EAEF; }
+  .followGuidelines .allContent .frstColmnContent, .followGuidelines .allContent .scndColmnContent {
+    padding: 30px !important; }
+
+  .followGuidelines .ElmnBlock ul li {
+    flex-direction: column;
+    align-items: flex-start; }
+    .followGuidelines .ElmnBlock ul li .dontIcon {
+      margin-bottom: 30px; }
+    .followGuidelines .ElmnBlock ul li span {
+      margin-bottom: 30px; }
+
+  .detoxProgram .exampleMeal .greyBorder {
+    max-width: 425px; }
+    .detoxProgram .exampleMeal .greyBorder .smallColumn {
+      max-width: 420px; }
+      .detoxProgram .exampleMeal .greyBorder .smallColumn:first-of-type {
+        border-top: 0; }
+
+  .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
+    border-top: 1px solid #E0EAEF;
+    padding: 20px !important; }
+
+  .mealContentF .mealColumn, .mealContentS .mealColumn {
+    border-right: 0; }
+    .mealContentF .mealColumn:first-of-type .mealHeading, .mealContentS .mealColumn:first-of-type .mealHeading {
+      border-top: 0 !important; }
+    .mealContentF .mealColumn .mealHeading, .mealContentS .mealColumn .mealHeading {
+      padding: 30px;
+      border-top: 1px solid #E0EAEF;
+      min-width: 197px;
+      max-width: 390px; }
+
+  .detoxMenu .mealContentF .mealColumn .mealHeading, .detoxMenu .mealContentS .mealColumn .mealHeading {
+    max-width: 400px; }
+
+  .detoxMenu .mealContentF .mealColumn, .detoxMenu .mealContentS .mealColumn {
+    border-right: 0; }
+
+  .detoxProgram .exampleMeal .mainContent .smallColumn:first-of-type .colmnHeading {
+    border-top: 0; }
+
+  .detoxProgram .exampleMeal .mainContent .smallColumn {
+    border-right: 0; } }
+
+/*# sourceMappingURL=media-queries.css.map */

@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .followGuidelines .greyBorder .allContent .frstColmnHeading {
+    padding-bottom: 58px;
+  }
+  .detoxMenu .mealContentF .mealColumn {
+    .mealHeading {
+      min-width: 197px;
+      max-width: 285px;
+    }
+
+    &:nth-of-type(2) {
+      .mealHeading {
+        padding-bottom: 6px;
+      }
+    }
+
+    .mealColmnContent {
+      padding-left: 0;
+    }
+
+    &:last-of-type {
+      .mealColmnContent {
+        padding-left: 30px;
+      }
+    }
+  }
+  .detoxMenu .mealContentS .mealColumn {
+    .mealHeading {
+      min-width: 197px;
+      max-width: 285px;
+    }
+
+    &:last-of-type {
+      .mealHeading {
+        padding-bottom: 6px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .followGuidelines {
+    .allContent {
+
+      .frstColmnHeading {
+        padding: 30px !important;
+      }
+
+      .scndColmnHeading {
+        padding: 30px !important;
+        border-top: 1px solid #E0EAEF;
+      }
+
+      .frstColmnContent, .scndColmnContent {
+        padding: 30px !important;
+      }
+    }
+  }
+  .followGuidelines {
+    .ElmnBlock ul li {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .dontIcon {
+        margin-bottom: 30px;
+      }
+
+      span {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .detoxProgram .exampleMeal .greyBorder {
+    max-width: 425px;
+
+    .smallColumn {
+      max-width: 420px;
+
+
+      &:first-of-type {
+        border-top: 0;
+      }
+    }
+  }
+  .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
+    border-top: 1px solid #E0EAEF;
+    padding: 20px !important;
+  }
+
+  .mealContentF, .mealContentS {
+    .mealColumn {
+      border-right: 0;
+
+      &:first-of-type {
+        .mealHeading {
+          border-top: 0 !important;
+        }
+      }
+
+      .mealHeading {
+        padding: 30px;
+        border-top: 1px solid #E0EAEF;
+        min-width: 197px;
+        max-width: 390px;
+      }
+    }
+  }
+  .detoxMenu .mealContentF .mealColumn .mealHeading, .detoxMenu .mealContentS .mealColumn .mealHeading {
+    max-width: 400px;
+  }
+  .detoxMenu .mealContentF .mealColumn, .detoxMenu .mealContentS .mealColumn {
+    border-right: 0;
+  }
+  .detoxProgram .exampleMeal .mainContent .smallColumn {
+    &:first-of-type {
+      .colmnHeading {
+        border-top: 0;
+      }
+    }
+  }
+  .detoxProgram .exampleMeal .mainContent .smallColumn {
+    border-right: 0;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
