@@ -2,55 +2,40 @@
   .followGuidelines .greyBorder .allContent .frstColmnHeading {
     padding-bottom: 58px; }
 
-  .detoxMenu .mealContentF .mealColumn .mealHeading {
-    min-width: 197px;
-    max-width: 285px; }
-  .detoxMenu .mealContentF .mealColumn:nth-of-type(2) .mealHeading {
-    padding-bottom: 6px; }
   .detoxMenu .mealContentF .mealColumn .mealColmnContent {
     padding-left: 0; }
   .detoxMenu .mealContentF .mealColumn:last-of-type .mealColmnContent {
     padding-left: 30px; }
 
-  .detoxMenu .mealContentS .mealColumn .mealHeading {
-    min-width: 197px;
-    max-width: 285px; }
   .detoxMenu .mealContentS .mealColumn:last-of-type .mealHeading {
     padding-bottom: 6px; }
 
-  .recommended .productCard {
-    max-width: 230px;
-    margin-right: 10px; }
-    .recommended .productCard .productImage {
-      max-width: 230px; }
-    .recommended .productCard .productPrice span {
-      font-size: 14px !important; } }
+  .recommended .productCard .productPrice span {
+    font-size: 14px !important; } }
 @media only screen and (max-width: 426px) {
+  .frstColmn, .scndColmn {
+    width: 100% !important; }
+
   .footer {
     display: block; }
 
-  .recommended .productCard {
-    max-width: 160px;
+  .recommended .col-md-4 .productCard {
     padding: 0 15px 10px;
-    margin-right: 14px;
     background: #FFFFFF;
     box-shadow: 0 11px 144px rgba(86, 102, 109, 0.13);
     border-radius: 10px; }
-    .recommended .productCard:nth-of-type(2) {
-      margin-right: 0; }
-    .recommended .productCard:last-of-type {
-      display: none; }
-    .recommended .productCard .productImage img {
-      max-width: 160px;
-      max-height: 145.74px; }
-    .recommended .productCard .productInfo {
+    .recommended .col-md-4 .productCard .productInfo {
       flex-direction: column; }
-      .recommended .productCard .productInfo h4 {
+      .recommended .col-md-4 .productCard .productInfo h4 {
         font-size: 11px; }
-      .recommended .productCard .productInfo .mobMarg {
+      .recommended .col-md-4 .productCard .productInfo .mobMarg {
         margin-bottom: 5px; }
-    .recommended .productCard .productBadge {
+    .recommended .col-md-4 .productCard .productBadge {
       margin-bottom: 5px; }
+  .recommended .col-md-4:nth-of-type(2) .productCard {
+    margin-right: 0; }
+  .recommended .col-md-4:last-of-type .productCard {
+    display: none; }
   .recommended .buy {
     margin-top: 40px; }
     .recommended .buy h4 {
@@ -58,9 +43,6 @@
       color: #DD4C56; }
     .recommended .buy a {
       background: #DD4C56; }
-
-  .container {
-    padding: 0 20px; }
 
   .followGuidelines .allContent .frstColmnHeading {
     padding: 30px !important; }
@@ -78,12 +60,10 @@
     .followGuidelines .ElmnBlock ul li span {
       margin-bottom: 30px; }
 
-  .detoxProgram .exampleMeal .greyBorder {
-    max-width: 425px; }
-    .detoxProgram .exampleMeal .greyBorder .smallColumn {
-      max-width: 420px; }
-      .detoxProgram .exampleMeal .greyBorder .smallColumn:first-of-type {
-        border-top: 0; }
+  .detoxProgram .exampleMeal .greyBorder .smallColumn {
+    width: 100% !important; }
+    .detoxProgram .exampleMeal .greyBorder .smallColumn:first-of-type {
+      border-top: 0; }
 
   .detoxProgram .exampleMeal .mainContent .smallColumn .colmnHeading {
     border-top: 1px solid #E0EAEF;
@@ -95,14 +75,10 @@
       border-top: 0 !important; }
     .mealContentF .mealColumn .mealHeading, .mealContentS .mealColumn .mealHeading {
       padding: 30px;
-      border-top: 1px solid #E0EAEF;
-      min-width: 197px;
-      max-width: 390px; }
-
-  .detoxMenu .mealContentF .mealColumn .mealHeading, .detoxMenu .mealContentS .mealColumn .mealHeading {
-    max-width: 400px; }
+      border-top: 1px solid #E0EAEF; }
 
   .detoxMenu .mealContentF .mealColumn, .detoxMenu .mealContentS .mealColumn {
+    width: 100%;
     border-right: 0; }
 
   .detoxProgram .exampleMeal .mainContent .smallColumn:first-of-type .colmnHeading {
@@ -110,15 +86,10 @@
 
   .detoxProgram .exampleMeal .mainContent .smallColumn {
     border-right: 0; } }
+@media only screen and (max-width: 375px) {
+  .productInfo {
+    width: 100% !important; } }
 @media only screen and (max-width: 321px) {
-  .recommended .productCard {
-    box-shadow: inset;
-    max-width: 150px;
-    margin-right: 5px; }
-    .recommended .productCard .productImage {
-      max-width: 150px; }
-  .recommended:nth-of-type(2) {
-    margin-right: 0; }
   .recommended .buy a {
     padding: 20px 10px; } }
 
