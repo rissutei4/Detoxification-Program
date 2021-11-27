@@ -1,3 +1,12 @@
+@import "bootstrap.css";
+@import "bootstrap.min.css";
+@import "fonts.scss";
+
+$sfPro: 'Sofia Pro', sans-serif;
+$sfProBold: 'Sofia Pro Bold', sans-serif;
+$sfProLight: 'Sofia Pro Light', sans-serif;
+$bbsNBold: 'Bebas Neue-Bold', sans-serif;
+
 @media only screen and (max-width: 1024px) {
 
 }
@@ -34,6 +43,27 @@
         span {
           font-size: 14px !important;
         }
+      }
+    }
+  }
+
+
+  /* Workout Plan Woman Styles*/
+  .workoutPreview {
+    flex-direction: column !important;
+
+    .workoutBriefInfo {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  .fullWorkout {
+    .workoutModelImg {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: auto !important;
       }
     }
   }
@@ -171,6 +201,192 @@
   .detoxProgram .exampleMeal .mainContent .smallColumn {
     border-right: 0;
   }
+
+  /* Workout Plan Woman Styles*/
+  .exercises {
+    .exercise {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+
+      .exerciseInfo {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+
+        .mobileRow {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 22px;
+
+          .exerciseIcon {
+            width: 16px;
+            height: 16px;
+            margin-right: 26px;
+          }
+        }
+
+        .exerciseType {
+          margin-bottom: 22px;
+        }
+      }
+
+      .exerciseDescription {
+        margin-bottom: 18px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .playExercise {
+        background-color: #fff;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+
+        button {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .showMobile {
+          display: block !important;
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          text-align: center;
+          letter-spacing: 0.5px;
+          color: #484848;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .repeatWorkout {
+    padding: 20px !important;
+  }
+
+  .specPadd {
+    padding: 0 15px;
+  }
+
+  .pageHeading {
+    margin-bottom: 20px !important;
+  }
+
+  .imagePart {
+    max-height: 0;
+    height: 700px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .circuitExampleBox {
+    .exercises {
+      .exercise {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+
+        .exerciseInfo {
+          flex-direction: column !important;
+          align-items: flex-start !important;
+
+          .mobileRow {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 22px;
+
+            .exerciseIcon {
+              width: 16px;
+              height: 16px;
+              margin-right: 26px;
+            }
+          }
+
+          .exerciseType {
+            margin-bottom: 22px;
+          }
+        }
+
+        .exerciseDescription {
+          margin-bottom: 18px;
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+        .playExercise {
+          background-color: #fff;
+          padding: 10px;
+          width: 100%;
+          border-radius: 10px;
+
+          button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+
+          .showMobile {
+            display: block !important;
+            font-family: $sfPro;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.5px;
+            color: #484848;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .trainSchedule {
+    .fourWorkoutPreviews {
+      .workoutPreview {
+        flex-direction: row !important;
+        align-items: center;
+
+        .workoutImage {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .fullWorkout {
+      .fWHeading {
+        flex-direction: column !important;
+
+        .workoutColumnContent {
+          width: 100% !important;
+
+          .mainContent {
+            .fwHeadingTimeInfo {
+              padding: 20px !important;
+            }
+
+            .workoutInform {
+              padding: 20px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reminder {
+    flex-direction: column !important;
+
+    .stretchTime {
+      margin-bottom: 20px;
+    }
+  }
+
+  .workoutModelImg {
+    margin-bottom: 30px;
+  }
 }
 
 
@@ -178,6 +394,7 @@
   .productInfo {
     width: 100% !important;
   }
+  /* Workout Plan Woman Styles*/
 }
 
 @media only screen and (max-width: 360px) {
@@ -192,4 +409,5 @@
       }
     }
   }
+  /* Workout Plan Woman Styles*/
 }

@@ -1,3 +1,33 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("../fonts/SofiaProRegular.eot");
+  src: url("../fonts/SofiaProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProRegular.woff2") format("woff2"), url("../fonts/SofiaProRegular.woff") format("woff"), url("../fonts/SofiaProRegular.ttf") format("truetype"), url("../fonts/SofiaProRegular.svg#SofiaProRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Sofia Pro Bold';
+  src: url("../fonts/SofiaProBold.eot");
+  src: url("../fonts/SofiaProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProBold.woff2") format("woff2"), url("../fonts/SofiaProBold.woff") format("woff"), url("../fonts/SofiaProBold.ttf") format("truetype"), url("../fonts/SofiaProBold.svg#SofiaProBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Sofia Pro Light';
+  src: url("../fonts/SofiaProLight.eot");
+  src: url("../fonts/SofiaProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProLight.woff2") format("woff2"), url("../fonts/SofiaProLight.woff") format("woff"), url("../fonts/SofiaProLight.ttf") format("truetype"), url("../fonts/SofiaProLight.svg#SofiaProLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Bebas Neue-Bold';
+  src: url("../fonts/BebasNeueBold.eot");
+  src: url("../fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueBold.woff2") format("woff2"), url("../fonts/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeueBold.ttf") format("truetype"), url("../fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
 @media only screen and (max-width: 768px) {
   .followGuidelines .greyBorder .allContent .frstColmnHeading {
     padding-bottom: 58px; }
@@ -11,7 +41,20 @@
     padding-bottom: 6px; }
 
   .recommended .productCard .productPrice span {
-    font-size: 14px !important; } }
+    font-size: 14px !important; }
+
+  /* Workout Plan Woman Styles*/
+  .workoutPreview {
+    flex-direction: column !important; }
+    .workoutPreview .workoutBriefInfo {
+      margin-top: 10px;
+      text-align: center; }
+
+  .fullWorkout .workoutModelImg {
+    display: flex;
+    align-items: center; }
+    .fullWorkout .workoutModelImg img {
+      height: auto !important; } }
 @media only screen and (max-width: 426px) {
   .frstColmn, .scndColmn {
     width: 100% !important; }
@@ -85,12 +128,132 @@
     border-top: 0; }
 
   .detoxProgram .exampleMeal .mainContent .smallColumn {
-    border-right: 0; } }
+    border-right: 0; }
+
+  /* Workout Plan Woman Styles*/
+  .exercises .exercise {
+    flex-direction: column !important;
+    align-items: flex-start !important; }
+    .exercises .exercise .exerciseInfo {
+      flex-direction: column !important;
+      align-items: flex-start !important; }
+      .exercises .exercise .exerciseInfo .mobileRow {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 22px; }
+        .exercises .exercise .exerciseInfo .mobileRow .exerciseIcon {
+          width: 16px;
+          height: 16px;
+          margin-right: 26px; }
+      .exercises .exercise .exerciseInfo .exerciseType {
+        margin-bottom: 22px; }
+    .exercises .exercise .exerciseDescription {
+      margin-bottom: 18px; }
+      .exercises .exercise .exerciseDescription p {
+        font-size: 16px; }
+    .exercises .exercise .playExercise {
+      background-color: #fff;
+      padding: 10px;
+      width: 100%;
+      border-radius: 10px; }
+      .exercises .exercise .playExercise button {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      .exercises .exercise .playExercise .showMobile {
+        display: block !important;
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #484848;
+        margin-left: 10px; }
+
+  .repeatWorkout {
+    padding: 20px !important; }
+
+  .specPadd {
+    padding: 0 15px; }
+
+  .pageHeading {
+    margin-bottom: 20px !important; }
+
+  .imagePart {
+    max-height: 0;
+    height: 700px !important;
+    margin-bottom: 30px !important; }
+
+  .circuitExampleBox .exercises .exercise {
+    flex-direction: column !important;
+    align-items: flex-start !important; }
+    .circuitExampleBox .exercises .exercise .exerciseInfo {
+      flex-direction: column !important;
+      align-items: flex-start !important; }
+      .circuitExampleBox .exercises .exercise .exerciseInfo .mobileRow {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 22px; }
+        .circuitExampleBox .exercises .exercise .exerciseInfo .mobileRow .exerciseIcon {
+          width: 16px;
+          height: 16px;
+          margin-right: 26px; }
+      .circuitExampleBox .exercises .exercise .exerciseInfo .exerciseType {
+        margin-bottom: 22px; }
+    .circuitExampleBox .exercises .exercise .exerciseDescription {
+      margin-bottom: 18px; }
+      .circuitExampleBox .exercises .exercise .exerciseDescription p {
+        font-size: 16px; }
+    .circuitExampleBox .exercises .exercise .playExercise {
+      background-color: #fff;
+      padding: 10px;
+      width: 100%;
+      border-radius: 10px; }
+      .circuitExampleBox .exercises .exercise .playExercise button {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      .circuitExampleBox .exercises .exercise .playExercise .showMobile {
+        display: block !important;
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #484848;
+        margin-left: 10px; }
+
+  .trainSchedule .fourWorkoutPreviews .workoutPreview {
+    flex-direction: row !important;
+    align-items: center; }
+    .trainSchedule .fourWorkoutPreviews .workoutPreview .workoutImage {
+      display: flex;
+      align-items: center; }
+  .trainSchedule .fullWorkout .fWHeading {
+    flex-direction: column !important; }
+    .trainSchedule .fullWorkout .fWHeading .workoutColumnContent {
+      width: 100% !important; }
+      .trainSchedule .fullWorkout .fWHeading .workoutColumnContent .mainContent .fwHeadingTimeInfo {
+        padding: 20px !important; }
+      .trainSchedule .fullWorkout .fWHeading .workoutColumnContent .mainContent .workoutInform {
+        padding: 20px !important; }
+
+  .reminder {
+    flex-direction: column !important; }
+    .reminder .stretchTime {
+      margin-bottom: 20px; }
+
+  .workoutModelImg {
+    margin-bottom: 30px; } }
 @media only screen and (max-width: 375px) {
   .productInfo {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  /* Workout Plan Woman Styles*/ }
 @media only screen and (max-width: 321px) {
   .recommended .buy a {
-    padding: 20px 10px; } }
+    padding: 20px 10px; }
+
+  /* Workout Plan Woman Styles*/ }
 
 /*# sourceMappingURL=media-queries.css.map */
