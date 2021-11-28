@@ -1022,11 +1022,12 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
               }
             }
 
-            .playExercise{
-              .showMobile{
+            .playExercise {
+              .showMobile {
                 display: none;
               }
             }
+
             .repeatWorkout {
               display: flex;
               justify-content: center;
@@ -1500,5 +1501,1038 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
       margin-bottom: 50px;
     }
   }
+}
 
+/*Man workout template*/
+
+.headingBlock.Man {
+  h4 {
+    color: #DD4C56;
+    font-size: 42px;
+    font-family: $sfProBold;
+    margin: 10px 0;
+    letter-spacing: 0.005em;
+
+    &:before {
+      color: #11222B;
+      font-size: 16px;
+      display: block;
+      content: "Welcome To Limitless";
+    }
+  }
+
+  p {
+    letter-spacing: 0.005em;
+    font-family: $sfPro;
+    font-size: 42px;
+    color: #11222B;
+    margin: 10px 0;
+  }
+}
+
+.workoutInfo {
+  .briefDescription {
+    p {
+      span {
+        color: #DD4C56;
+      }
+    }
+  }
+
+  .HIIT {
+    h5 {
+
+    }
+  }
+
+  .imagePart.Man {
+    background-image: url(../images/headImageMan.png);
+
+    .custBadge.Man {
+      background: #DD4C56;
+    }
+  }
+
+  /*Circuits*/
+  .HIIT {
+    margin-bottom: 30px;
+
+    h5 {
+      font-family: $sfProBold;
+      font-size: 18px;
+      line-height: 125%;
+      color: #56666D;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: $sfPro;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D;
+      margin-bottom: 20px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      span {
+        color: #DD4C56;
+      }
+    }
+  }
+
+  .getStartMan {
+    .circuitsInfoMan {
+      margin-bottom: 40px;
+
+      .circuitTextBox {
+        border: 1px solid #E0EAEF;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        padding: 50px;
+
+        p {
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          color: #56666D;
+          letter-spacing: 0.5px;
+          margin-bottom: 0;
+
+          span {
+            color: #DD4C56;
+          }
+        }
+      }
+
+      .circuitExampleBox {
+        .greyBorder {
+          background: #F2F6F8;
+          border: 1px solid #F2F6F8;
+          box-sizing: border-box;
+          border-radius: 20px;
+          padding: 30px;
+
+          .mainContent {
+            background: #FFFFFF;
+            box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+            border-radius: 20px;
+
+
+            h4 {
+              font-family: $sfProBold;
+              font-size: 18px;
+              line-height: 125%;
+              color: #DD4C56;
+              margin-bottom: 20px;
+            }
+
+            .exercises {
+              display: flex;
+              flex-direction: column;
+              padding: 40px 30px;
+
+              .exercise {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                background: #F3F4F6;
+                border-radius: 10px;
+                padding: 10px 20px;
+
+                button {
+                  outline: none;
+                  border: none;
+                  color: transparent;
+                  background: transparent;
+                  cursor: pointer;
+                }
+
+                p {
+                  margin-bottom: 0;
+                }
+
+                .exerciseInfo {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+
+                  .mobileRow {
+                    display: flex;
+
+                    .exerciseIcon {
+                      margin-right: 26px;
+                      padding: 0;
+                    }
+                  }
+
+                  .exerciseReps, .exerciseType {
+                    p {
+                      font-family: $sfPro;
+                      font-size: 16px;
+                      line-height: 150%;
+                      letter-spacing: 0.5px;
+                      color: #484848;
+                      margin-right: 32px;
+
+                      span {
+                        color: #484848;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            .playExercise {
+              .showMobile {
+                display: none;
+              }
+            }
+
+            .repeatWorkout {
+              display: flex;
+              justify-content: center;
+              border: 2px solid #F3F4F6;
+              padding: 40px 0;
+
+              button {
+                outline: none;
+                border: none;
+                font-family: $sfPro;
+                font-size: 18px;
+                line-height: 125%;
+                color: #000000;
+                background: transparent;
+                cursor: pointer;
+                display: flex;
+                align-items: baseline;
+
+                &:before {
+                  display: inline-block;
+                  content: "";
+                  width: 100%;
+                  height: 2px;
+                  color: #F3F4F6;
+                }
+
+                img {
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      font-family: $sfPro;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D;
+
+      span {
+        color: #DD4C56;
+      }
+    }
+
+    .manTips {
+      .tipTextBox {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #DD4C56;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        p {
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #56666D;
+          margin-bottom: 10px;
+
+          span {
+            color: #DD4C56;
+          }
+        }
+
+        .proTipBadge {
+          padding: 10px;
+          background: #DD4C56;
+          border-radius: 5px;
+          margin-bottom: 10px;
+          display: block;
+          max-width: 98px;
+
+          span {
+            font-family: $sfPro;
+            font-size: 20px;
+            line-height: 120%;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+
+    .recommended {
+      margin-bottom: 50px;
+
+      h3 {
+        font-family: $sfPro;
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: 0.005em;
+        text-transform: capitalize;
+        color: #56666D;
+        margin-bottom: 20px;
+      }
+
+      .productCard {
+        background: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 0 11px 144px rgba(86, 102, 109, 0.13);
+        padding: 0 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        .productInfo {
+          .productBadge {
+            background: #FF6B00;
+            opacity: 0.8;
+            border-radius: 8px;
+            padding: 1px 6px;
+            max-width: 76px;
+
+            span {
+              font-family: $sfProBold;
+              font-size: 12px;
+              line-height: 150%;
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+            }
+          }
+
+          h4 {
+            font-family: $sfProLight;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.5px;
+            color: #11222B;
+          }
+
+          .productPrice {
+            p.actualPrice {
+              font-family: $sfProBold;
+              font-size: 16px;
+              line-height: 150%;
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.5px;
+              color: #11222B;
+              margin-right: 10px;
+              margin-bottom: 0;
+            }
+
+            p.pastPrice {
+              font-family: $sfPro;
+              font-size: 16px;
+              line-height: 150%;
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.5px;
+              text-decoration-line: line-through;
+              color: #56666D;
+              margin-right: 10px;
+              margin-bottom: 0;
+            }
+
+            span {
+              background: #DEF9D1;
+              border-radius: 20px;
+              font-family: $sfProBold;
+              min-width: 75px;
+              max-width: 87px;
+              max-height: 24px;
+              padding: 1px 6px;
+              font-size: 16px;
+              line-height: 125%;
+              text-align: center;
+              text-transform: uppercase;
+              color: #00AA77;
+            }
+          }
+        }
+      }
+
+      .buy {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+
+        h4 {
+          font-family: $sfPro;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 100%;
+          text-align: center;
+          letter-spacing: -0.02em;
+          color: #DD4C56;
+          margin-bottom: 20px;
+        }
+
+        a {
+          background: #DD4C56;
+          border-radius: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 44px;
+          font-family: $sfPro;
+          font-size: 24px;
+          line-height: 100%;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      p {
+        margin-bottom: 20px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .videoInstructions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 50px;
+
+      .videoInfo {
+        width: 50%;
+        margin-right: 20px;
+
+        p {
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #56666D;
+        }
+      }
+
+      .videoInfoBox {
+        border: 1px solid #B1C1C8;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+
+        p {
+          margin-bottom: 0;
+          margin-left: 32px;
+          max-width: 65%;
+        }
+
+        button {
+          outline: none;
+          border: none;
+          color: transparent;
+          background: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .motivationalWords {
+      h4 {
+        font-family: $sfProBold;
+        font-size: 32px;
+        line-height: 125%;
+        color: #56666D;
+        margin-bottom: 10px;
+      }
+
+      h5 {
+        font-family: $sfProBold;
+        font-size: 32px;
+        line-height: 125%;
+        color: #DD4C56;
+      }
+    }
+  }
+}
+
+.trainingSchedule {
+  margin-bottom: 20px;
+
+  h3 {
+    font-family: $sfProBold;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 125%;
+    color: #11222B;
+    margin-bottom: 30px;
+  }
+
+  .sevenWorkoutPreviews {
+    margin-bottom: 20px;
+
+    div.row:first-of-type > .col-md-6:nth-child(3) {
+      .workoutImage {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout2Man.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    div.row:first-of-type > .col-md-6:nth-child(5) {
+      .workoutImage {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout3Man.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .col-md-6:last-of-type {
+      .workoutPreview {
+        margin-bottom: 0;
+      }
+    }
+
+    .workoutPreview {
+      border: 1px solid #B1C1C8;
+      box-sizing: border-box;
+      border-radius: 30px;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+
+
+      .workoutImage {
+        width: 180px;
+        height: 278px;
+        overflow: hidden;
+        border-radius: 20px;
+        margin-right: 20px;
+        background-image: url(../images/workout1Man.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.gr {
+          background: #00AA77;
+        }
+
+        p {
+          font-family: $sfProBold;
+          font-size: 24px;
+          line-height: 125%;
+          color: #FFFFFF;
+        }
+      }
+
+      .workoutBriefInfo {
+        max-width: 178px;
+
+        h5 {
+          font-family: $sfProBold;
+          font-size: 24px;
+          line-height: 125%;
+          color: #56666D;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-family: $sfPro;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #484848;
+          margin-bottom: 10px;
+        }
+      }
+
+      .workoutIcon {
+        img {
+          width: 52px;
+          height: 52px;
+        }
+      }
+    }
+  }
+
+  .workoutNotes {
+    h3 {
+      font-family: $sfProBold;
+      font-size: 18px;
+      line-height: 125%;
+      color: #56666D;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: $sfPro;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .fullWorkout {
+    margin-bottom: 20px;
+
+    .greyBorder {
+      background: #F2F6F8;
+      border-radius: 20px;
+      padding: 30px;
+
+      .fWHeading {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+
+        .workoutModelImg {
+          width: 180px;
+          height: 278px;
+          overflow: hidden;
+          border-radius: 20px;
+          margin-right: 20px;
+          background-image: url(../images/workout1Man.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &.gr {
+            background: #00AA77;
+          }
+
+          p {
+            font-family: $sfProBold;
+            font-size: 24px;
+            line-height: 125%;
+            color: #FFFFFF;
+          }
+        }
+
+        .workoutColumnContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 80%;
+
+          h5 {
+            font-family: $sfProBold;
+            font-size: 32px;
+            line-height: 125%;
+            color: #DD4C56;
+            margin-bottom: 20px;
+          }
+
+          .mainContent {
+            background: #FFFFFF;
+            border: 1px solid #F2F6F8;
+            box-sizing: border-box;
+            box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+            border-radius: 20px;
+            width: 100%;
+
+            .fwHeadingTimeInfo {
+              display: flex;
+              flex-direction: row;
+              align-items: baseline;
+              padding: 30px 40px 20px;
+              border-bottom: 1px solid #E0EAEF;
+
+              p {
+                font-family: $sfPro;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #000000;
+              }
+
+              .fWHeadingTimeIcon {
+                margin-right: 20px;
+              }
+            }
+
+            .workoutInform {
+              padding: 34px 40px 24px;
+
+              p {
+                font-family: $sfPro;
+                font-size: 24px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848;
+                margin-bottom: 0;
+
+                span {
+                  font-size: 12px;
+                }
+
+                &.lessFs {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .mainContent {
+        background: #FFFFFF;
+        border: 1px solid #F2F6F8;
+        box-sizing: border-box;
+        box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+
+        h4 {
+          font-family: $sfProBold;
+          font-size: 18px;
+          line-height: 125%;
+          color: #DD4C56;
+          margin-bottom: 20px;
+        }
+
+        .exercises {
+          display: flex;
+          flex-direction: column;
+          padding: 40px 30px;
+
+          .exercise {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            background: #F3F4F6;
+            border-radius: 10px;
+            padding: 10px 20px;
+
+            button {
+              outline: none;
+              border: none;
+              color: transparent;
+              background: transparent;
+              cursor: pointer;
+            }
+
+            p {
+              margin-bottom: 0;
+            }
+
+            .exerciseInfo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 45%;
+
+              .mobileRow {
+                display: flex;
+
+                .exerciseIcon {
+                  margin-right: 26px;
+                  width: 18px;
+                  height: 21px;
+                  padding: 0;
+                }
+              }
+
+              .exerciseDescription {
+                width: 10%;
+              }
+
+              .exerciseReps, .exerciseType {
+                p {
+                  font-family: $sfPro;
+                  font-size: 16px;
+                  line-height: 150%;
+                  letter-spacing: 0.5px;
+                  color: #484848;
+                  margin-right: 32px;
+
+                  span {
+                    color: #484848;
+                  }
+                }
+              }
+
+              .exerciseType {
+                max-width: 191px;
+
+                p {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+
+          .setInfo {
+            width: 18%;
+            margin-right: 20px;
+
+            p {
+              font-family: $sfPro;
+              font-size: 13px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              text-align: end;
+            }
+          }
+        }
+
+        .repeatWorkout {
+          display: flex;
+          justify-content: center;
+          border: 2px solid #F3F4F6;
+          padding: 40px 0;
+
+          button {
+            outline: none;
+            border: none;
+            font-family: $sfPro;
+            font-size: 18px;
+            line-height: 125%;
+            color: #000000;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline;
+
+            &:before {
+              display: inline-block;
+              content: "";
+              width: 100%;
+              height: 2px;
+              color: #F3F4F6;
+            }
+
+            img {
+              margin-right: 10px;
+            }
+          }
+        }
+
+        .reminder {
+          padding: 30px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          .stretchTime {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 30px;
+
+            .stretchIcon {
+              margin-right: 20px;
+            }
+
+            p {
+              font-family: $sfPro;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #000000;
+              margin-bottom: 0;
+              margin-right: 48px;
+            }
+          }
+
+          .reminderInfo {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            margin-right: 30px;
+
+            p {
+              font-family: $sfPro;
+              font-size: 24px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              margin-left: 10px;
+
+              &:nth-of-type(2) {
+                font-family: $sfPro;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848;
+              }
+            }
+          }
+
+          .setInfo {
+            width: 18%;
+            margin-left: 72px;
+            margin-right: 20px;
+
+            p {
+              font-family: $sfPro;
+              font-size: 13px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              text-align: end;
+            }
+          }
+
+          .playExercise {
+            .showMobile {
+              display: none;
+            }
+
+            button {
+              outline: none;
+              border: none;
+              font-family: $sfPro;
+              font-size: 18px;
+              line-height: 125%;
+              color: #000000;
+              background: transparent;
+              cursor: pointer;
+              display: flex;
+              align-items: baseline;
+
+              &:before {
+                display: inline-block;
+                content: "";
+                width: 100%;
+                height: 2px;
+                color: #F3F4F6;
+              }
+
+              img {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.row:first-of-type > div.col-md-12:first-of-type > div.fullWorkout:nth-of-type(5) {
+    .workoutModelImg {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout2Man.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  div.row:first-of-type > div.col-md-12:first-of-type > div.fullWorkout:nth-of-type(7) {
+    .workoutModelImg {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout3Man.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .restDay {
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .greyBorder {
+      background: #F2F6F8;
+      border-radius: 20px;
+      padding: 30px;
+
+      .fWHeading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .workoutModelImg {
+          width: 180px;
+          height: 278px;
+          overflow: hidden;
+          border-radius: 20px;
+          margin-right: 20px;
+          background-image: url(../images/workout1Man.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &.gr {
+            background: #00AA77;
+          }
+
+          p {
+            font-family: $sfProBold;
+            font-size: 24px;
+            line-height: 125%;
+            color: #FFFFFF;
+          }
+        }
+
+        h4 {
+          font-family: $sfProBold;
+          font-size: 32px;
+          line-height: 125%;
+          color: #DD4C56;
+        }
+      }
+    }
+  }
 }

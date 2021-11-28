@@ -67,6 +67,31 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
       }
     }
   }
+
+  /*Workout Man Plan*/
+  .setInfo {
+    width: 8% !important;
+    margin-left: 0 !important;
+  }
+  .stretchTime {
+    p {
+      margin-right: 0 !important;
+    }
+  }
+  .stretchIcon {
+    p {
+      margin-right: 0 !important;
+    }
+  }
+  .reminderInfo {
+    margin-right: 20px !important;
+
+    p {
+      &:first-of-type {
+        margin-left: 0 !important;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -387,6 +412,78 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
   .workoutModelImg {
     margin-bottom: 30px;
   }
+
+  /*Man Workout Part*/
+  .videoInstructions {
+    flex-direction: column !important;
+
+    .videoInfo {
+      width: 100% !important;
+      margin-right: 0 !important;
+    }
+
+    .videoInfoBox {
+      width: 100% !important;
+    }
+  }
+  .fullWorkout {
+    .fWHeading {
+      flex-direction: column !important;
+
+      .workoutColumnContent {
+        width: 100% !important;
+      }
+    }
+
+    .exercise {
+      .setInfo {
+        display: none !important;
+      }
+
+      .exerciseInfo {
+        width: 100% !important;
+      }
+
+      .mobileRow {
+        button {
+          margin-right: 14px !important;
+        }
+      }
+    }
+  }
+  .reminder {
+    align-items: flex-start !important;
+
+    .reminderInfo {
+      margin-bottom: 20px !important;
+      flex-direction: column !important;
+
+      p {
+        &:last-of-type {
+          margin-left: 0 !important;
+        }
+      }
+    }
+
+    .setInfo {
+      width: 100% !important;
+      margin-bottom: 30px;
+
+      p {
+        text-align: start !important;
+      }
+    }
+
+    .playExercise {
+      button {
+        align-items: center !important;
+      }
+
+      .showMobile {
+        display: block !important;
+      }
+    }
+  }
 }
 
 
@@ -395,6 +492,8 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
     width: 100% !important;
   }
   /* Workout Plan Woman Styles*/
+
+  /*Man Workout Part*/
 }
 
 @media only screen and (max-width: 360px) {
@@ -410,4 +509,7 @@ $bbsNBold: 'Bebas Neue-Bold', sans-serif;
     }
   }
   /* Workout Plan Woman Styles*/
+
+
+  /*Man Workout Part*/
 }

@@ -54,7 +54,23 @@
     display: flex;
     align-items: center; }
     .fullWorkout .workoutModelImg img {
-      height: auto !important; } }
+      height: auto !important; }
+
+  /*Workout Man Plan*/
+  .setInfo {
+    width: 8% !important;
+    margin-left: 0 !important; }
+
+  .stretchTime p {
+    margin-right: 0 !important; }
+
+  .stretchIcon p {
+    margin-right: 0 !important; }
+
+  .reminderInfo {
+    margin-right: 20px !important; }
+    .reminderInfo p:first-of-type {
+      margin-left: 0 !important; } }
 @media only screen and (max-width: 426px) {
   .frstColmn, .scndColmn {
     width: 100% !important; }
@@ -244,16 +260,55 @@
       margin-bottom: 20px; }
 
   .workoutModelImg {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  /*Man Workout Part*/
+  .videoInstructions {
+    flex-direction: column !important; }
+    .videoInstructions .videoInfo {
+      width: 100% !important;
+      margin-right: 0 !important; }
+    .videoInstructions .videoInfoBox {
+      width: 100% !important; }
+
+  .fullWorkout .fWHeading {
+    flex-direction: column !important; }
+    .fullWorkout .fWHeading .workoutColumnContent {
+      width: 100% !important; }
+  .fullWorkout .exercise .setInfo {
+    display: none !important; }
+  .fullWorkout .exercise .exerciseInfo {
+    width: 100% !important; }
+  .fullWorkout .exercise .mobileRow button {
+    margin-right: 14px !important; }
+
+  .reminder {
+    align-items: flex-start !important; }
+    .reminder .reminderInfo {
+      margin-bottom: 20px !important;
+      flex-direction: column !important; }
+      .reminder .reminderInfo p:last-of-type {
+        margin-left: 0 !important; }
+    .reminder .setInfo {
+      width: 100% !important;
+      margin-bottom: 30px; }
+      .reminder .setInfo p {
+        text-align: start !important; }
+    .reminder .playExercise button {
+      align-items: center !important; }
+    .reminder .playExercise .showMobile {
+      display: block !important; } }
 @media only screen and (max-width: 375px) {
   .productInfo {
     width: 100% !important; }
 
-  /* Workout Plan Woman Styles*/ }
+  /* Workout Plan Woman Styles*/
+  /*Man Workout Part*/ }
 @media only screen and (max-width: 321px) {
   .recommended .buy a {
     padding: 20px 10px; }
 
-  /* Workout Plan Woman Styles*/ }
+  /* Workout Plan Woman Styles*/
+  /*Man Workout Part*/ }
 
 /*# sourceMappingURL=media-queries.css.map */

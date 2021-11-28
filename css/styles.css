@@ -1071,4 +1071,714 @@
       color: #DD4C56;
       margin-bottom: 50px; }
 
+/*Man workout template*/
+.headingBlock.Man h4 {
+  color: #DD4C56;
+  font-size: 42px;
+  font-family: "Sofia Pro Bold", sans-serif;
+  margin: 10px 0;
+  letter-spacing: 0.005em; }
+  .headingBlock.Man h4:before {
+    color: #11222B;
+    font-size: 16px;
+    display: block;
+    content: "Welcome To Limitless"; }
+.headingBlock.Man p {
+  letter-spacing: 0.005em;
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 42px;
+  color: #11222B;
+  margin: 10px 0; }
+
+.workoutInfo {
+  /*Circuits*/ }
+  .workoutInfo .briefDescription p span {
+    color: #DD4C56; }
+  .workoutInfo .imagePart.Man {
+    background-image: url(../images/headImageMan.png); }
+    .workoutInfo .imagePart.Man .custBadge.Man {
+      background: #DD4C56; }
+  .workoutInfo .HIIT {
+    margin-bottom: 30px; }
+    .workoutInfo .HIIT h5 {
+      font-family: "Sofia Pro Bold", sans-serif;
+      font-size: 18px;
+      line-height: 125%;
+      color: #56666D;
+      margin-bottom: 20px; }
+    .workoutInfo .HIIT p {
+      font-family: "Sofia Pro", sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D;
+      margin-bottom: 20px; }
+      .workoutInfo .HIIT p:last-of-type {
+        margin-bottom: 0; }
+      .workoutInfo .HIIT p span {
+        color: #DD4C56; }
+  .workoutInfo .getStartMan .circuitsInfoMan {
+    margin-bottom: 40px; }
+    .workoutInfo .getStartMan .circuitsInfoMan .circuitTextBox {
+      border: 1px solid #E0EAEF;
+      box-sizing: border-box;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      padding: 50px; }
+      .workoutInfo .getStartMan .circuitsInfoMan .circuitTextBox p {
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        color: #56666D;
+        letter-spacing: 0.5px;
+        margin-bottom: 0; }
+        .workoutInfo .getStartMan .circuitsInfoMan .circuitTextBox p span {
+          color: #DD4C56; }
+    .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder {
+      background: #F2F6F8;
+      border: 1px solid #F2F6F8;
+      box-sizing: border-box;
+      border-radius: 20px;
+      padding: 30px; }
+      .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent {
+        background: #FFFFFF;
+        box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+        border-radius: 20px; }
+        .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent h4 {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 18px;
+          line-height: 125%;
+          color: #DD4C56;
+          margin-bottom: 20px; }
+        .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises {
+          display: flex;
+          flex-direction: column;
+          padding: 40px 30px; }
+          .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            background: #F3F4F6;
+            border-radius: 10px;
+            padding: 10px 20px; }
+            .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise button {
+              outline: none;
+              border: none;
+              color: transparent;
+              background: transparent;
+              cursor: pointer; }
+            .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise p {
+              margin-bottom: 0; }
+            .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo {
+              display: flex;
+              flex-direction: row;
+              align-items: center; }
+              .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .mobileRow {
+                display: flex; }
+                .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .mobileRow .exerciseIcon {
+                  margin-right: 26px;
+                  padding: 0; }
+              .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseReps p, .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType p {
+                font-family: "Sofia Pro", sans-serif;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848;
+                margin-right: 32px; }
+                .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseReps p span, .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType p span {
+                  color: #484848; }
+        .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .playExercise .showMobile {
+          display: none; }
+        .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .repeatWorkout {
+          display: flex;
+          justify-content: center;
+          border: 2px solid #F3F4F6;
+          padding: 40px 0; }
+          .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .repeatWorkout button {
+            outline: none;
+            border: none;
+            font-family: "Sofia Pro", sans-serif;
+            font-size: 18px;
+            line-height: 125%;
+            color: #000000;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline; }
+            .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .repeatWorkout button:before {
+              display: inline-block;
+              content: "";
+              width: 100%;
+              height: 2px;
+              color: #F3F4F6; }
+            .workoutInfo .getStartMan .circuitsInfoMan .circuitExampleBox .greyBorder .mainContent .repeatWorkout button img {
+              margin-right: 10px; }
+  .workoutInfo .getStartMan p {
+    font-family: "Sofia Pro", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #56666D; }
+    .workoutInfo .getStartMan p span {
+      color: #DD4C56; }
+  .workoutInfo .getStartMan .manTips .tipTextBox {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #DD4C56;
+    border-radius: 10px;
+    box-sizing: border-box; }
+    .workoutInfo .getStartMan .manTips .tipTextBox p {
+      font-family: "Sofia Pro", sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #56666D;
+      margin-bottom: 10px; }
+      .workoutInfo .getStartMan .manTips .tipTextBox p span {
+        color: #DD4C56; }
+    .workoutInfo .getStartMan .manTips .tipTextBox .proTipBadge {
+      padding: 10px;
+      background: #DD4C56;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+      max-width: 98px; }
+      .workoutInfo .getStartMan .manTips .tipTextBox .proTipBadge span {
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF; }
+  .workoutInfo .getStartMan .recommended {
+    margin-bottom: 50px; }
+    .workoutInfo .getStartMan .recommended h3 {
+      font-family: "Sofia Pro", sans-serif;
+      font-size: 24px;
+      line-height: 125%;
+      letter-spacing: 0.005em;
+      text-transform: capitalize;
+      color: #56666D;
+      margin-bottom: 20px; }
+    .workoutInfo .getStartMan .recommended .productCard {
+      background: #FFFFFF;
+      border-radius: 20px;
+      box-shadow: 0 11px 144px rgba(86, 102, 109, 0.13);
+      padding: 0 20px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px; }
+      .workoutInfo .getStartMan .recommended .productCard:last-of-type {
+        margin-right: 0; }
+      .workoutInfo .getStartMan .recommended .productCard .productInfo .productBadge {
+        background: #FF6B00;
+        opacity: 0.8;
+        border-radius: 8px;
+        padding: 1px 6px;
+        max-width: 76px; }
+        .workoutInfo .getStartMan .recommended .productCard .productInfo .productBadge span {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 12px;
+          line-height: 150%;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.01em;
+          color: #FFFFFF; }
+      .workoutInfo .getStartMan .recommended .productCard .productInfo h4 {
+        font-family: "Sofia Pro Light", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #11222B; }
+      .workoutInfo .getStartMan .recommended .productCard .productInfo .productPrice p.actualPrice {
+        font-family: "Sofia Pro Bold", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #11222B;
+        margin-right: 10px;
+        margin-bottom: 0; }
+      .workoutInfo .getStartMan .recommended .productCard .productInfo .productPrice p.pastPrice {
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        text-decoration-line: line-through;
+        color: #56666D;
+        margin-right: 10px;
+        margin-bottom: 0; }
+      .workoutInfo .getStartMan .recommended .productCard .productInfo .productPrice span {
+        background: #DEF9D1;
+        border-radius: 20px;
+        font-family: "Sofia Pro Bold", sans-serif;
+        min-width: 75px;
+        max-width: 87px;
+        max-height: 24px;
+        padding: 1px 6px;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #00AA77; }
+    .workoutInfo .getStartMan .recommended .buy {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 60px; }
+      .workoutInfo .getStartMan .recommended .buy h4 {
+        font-family: "Sofia Pro", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #DD4C56;
+        margin-bottom: 20px; }
+      .workoutInfo .getStartMan .recommended .buy a {
+        background: #DD4C56;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 44px;
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF; }
+        .workoutInfo .getStartMan .recommended .buy a:hover {
+          text-decoration: none; }
+    .workoutInfo .getStartMan .recommended p {
+      margin-bottom: 20px; }
+      .workoutInfo .getStartMan .recommended p:last-of-type {
+        margin-bottom: 0; }
+  .workoutInfo .getStartMan .videoInstructions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px; }
+    .workoutInfo .getStartMan .videoInstructions .videoInfo {
+      width: 50%;
+      margin-right: 20px; }
+      .workoutInfo .getStartMan .videoInstructions .videoInfo p {
+        font-family: "Sofia Pro", sans-serif;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #56666D; }
+    .workoutInfo .getStartMan .videoInstructions .videoInfoBox {
+      border: 1px solid #B1C1C8;
+      box-sizing: border-box;
+      border-radius: 20px;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 50%; }
+      .workoutInfo .getStartMan .videoInstructions .videoInfoBox p {
+        margin-bottom: 0;
+        margin-left: 32px;
+        max-width: 65%; }
+      .workoutInfo .getStartMan .videoInstructions .videoInfoBox button {
+        outline: none;
+        border: none;
+        color: transparent;
+        background: transparent;
+        cursor: pointer; }
+  .workoutInfo .getStartMan .motivationalWords h4 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 32px;
+    line-height: 125%;
+    color: #56666D;
+    margin-bottom: 10px; }
+  .workoutInfo .getStartMan .motivationalWords h5 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 32px;
+    line-height: 125%;
+    color: #DD4C56; }
+
+.trainingSchedule {
+  margin-bottom: 20px; }
+  .trainingSchedule h3 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 125%;
+    color: #11222B;
+    margin-bottom: 30px; }
+  .trainingSchedule .sevenWorkoutPreviews {
+    margin-bottom: 20px; }
+    .trainingSchedule .sevenWorkoutPreviews div.row:first-of-type > .col-md-6:nth-child(3) .workoutImage {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout2Man.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .trainingSchedule .sevenWorkoutPreviews div.row:first-of-type > .col-md-6:nth-child(5) .workoutImage {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout3Man.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .trainingSchedule .sevenWorkoutPreviews .col-md-6:last-of-type .workoutPreview {
+      margin-bottom: 0; }
+    .trainingSchedule .sevenWorkoutPreviews .workoutPreview {
+      border: 1px solid #B1C1C8;
+      box-sizing: border-box;
+      border-radius: 30px;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px; }
+      .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutImage {
+        width: 180px;
+        height: 278px;
+        overflow: hidden;
+        border-radius: 20px;
+        margin-right: 20px;
+        background-image: url(../images/workout1Man.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutImage.gr {
+          background: #00AA77; }
+        .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutImage p {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 24px;
+          line-height: 125%;
+          color: #FFFFFF; }
+      .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutBriefInfo {
+        max-width: 178px; }
+        .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutBriefInfo h5 {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 24px;
+          line-height: 125%;
+          color: #56666D;
+          margin-bottom: 10px; }
+        .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutBriefInfo p {
+          font-family: "Sofia Pro", sans-serif;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+          color: #484848;
+          margin-bottom: 10px; }
+      .trainingSchedule .sevenWorkoutPreviews .workoutPreview .workoutIcon img {
+        width: 52px;
+        height: 52px; }
+  .trainingSchedule .workoutNotes h3 {
+    font-family: "Sofia Pro Bold", sans-serif;
+    font-size: 18px;
+    line-height: 125%;
+    color: #56666D;
+    margin-bottom: 20px; }
+  .trainingSchedule .workoutNotes p {
+    font-family: "Sofia Pro", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #56666D;
+    margin-bottom: 20px; }
+  .trainingSchedule .fullWorkout {
+    margin-bottom: 20px; }
+    .trainingSchedule .fullWorkout .greyBorder {
+      background: #F2F6F8;
+      border-radius: 20px;
+      padding: 30px; }
+      .trainingSchedule .fullWorkout .greyBorder .fWHeading {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px; }
+        .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutModelImg {
+          width: 180px;
+          height: 278px;
+          overflow: hidden;
+          border-radius: 20px;
+          margin-right: 20px;
+          background-image: url(../images/workout1Man.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutModelImg.gr {
+            background: #00AA77; }
+          .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutModelImg p {
+            font-family: "Sofia Pro Bold", sans-serif;
+            font-size: 24px;
+            line-height: 125%;
+            color: #FFFFFF; }
+        .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 80%; }
+          .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent h5 {
+            font-family: "Sofia Pro Bold", sans-serif;
+            font-size: 32px;
+            line-height: 125%;
+            color: #DD4C56;
+            margin-bottom: 20px; }
+          .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent {
+            background: #FFFFFF;
+            border: 1px solid #F2F6F8;
+            box-sizing: border-box;
+            box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+            border-radius: 20px;
+            width: 100%; }
+            .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .fwHeadingTimeInfo {
+              display: flex;
+              flex-direction: row;
+              align-items: baseline;
+              padding: 30px 40px 20px;
+              border-bottom: 1px solid #E0EAEF; }
+              .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .fwHeadingTimeInfo p {
+                font-family: "Sofia Pro", sans-serif;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #000000; }
+              .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .fwHeadingTimeInfo .fWHeadingTimeIcon {
+                margin-right: 20px; }
+            .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .workoutInform {
+              padding: 34px 40px 24px; }
+              .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .workoutInform p {
+                font-family: "Sofia Pro", sans-serif;
+                font-size: 24px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848;
+                margin-bottom: 0; }
+                .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .workoutInform p span {
+                  font-size: 12px; }
+                .trainingSchedule .fullWorkout .greyBorder .fWHeading .workoutColumnContent .mainContent .workoutInform p.lessFs {
+                  font-size: 18px; }
+      .trainingSchedule .fullWorkout .greyBorder .mainContent {
+        background: #FFFFFF;
+        border: 1px solid #F2F6F8;
+        box-sizing: border-box;
+        box-shadow: 0 3px 5px rgba(86, 102, 109, 0.13);
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 10px; }
+        .trainingSchedule .fullWorkout .greyBorder .mainContent h4 {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 18px;
+          line-height: 125%;
+          color: #DD4C56;
+          margin-bottom: 20px; }
+        .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises {
+          display: flex;
+          flex-direction: column;
+          padding: 40px 30px; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            background: #F3F4F6;
+            border-radius: 10px;
+            padding: 10px 20px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise button {
+              outline: none;
+              border: none;
+              color: transparent;
+              background: transparent;
+              cursor: pointer; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise p {
+              margin-bottom: 0; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 45%; }
+              .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .mobileRow {
+                display: flex; }
+                .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .mobileRow .exerciseIcon {
+                  margin-right: 26px;
+                  width: 18px;
+                  height: 21px;
+                  padding: 0; }
+              .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseDescription {
+                width: 10%; }
+              .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseReps p, .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType p {
+                font-family: "Sofia Pro", sans-serif;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848;
+                margin-right: 32px; }
+                .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseReps p span, .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType p span {
+                  color: #484848; }
+              .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType {
+                max-width: 191px; }
+                .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .exercise .exerciseInfo .exerciseType p {
+                  margin-right: 0; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .setInfo {
+            width: 18%;
+            margin-right: 20px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .exercises .setInfo p {
+              font-family: "Sofia Pro", sans-serif;
+              font-size: 13px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              text-align: end; }
+        .trainingSchedule .fullWorkout .greyBorder .mainContent .repeatWorkout {
+          display: flex;
+          justify-content: center;
+          border: 2px solid #F3F4F6;
+          padding: 40px 0; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .repeatWorkout button {
+            outline: none;
+            border: none;
+            font-family: "Sofia Pro", sans-serif;
+            font-size: 18px;
+            line-height: 125%;
+            color: #000000;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .repeatWorkout button:before {
+              display: inline-block;
+              content: "";
+              width: 100%;
+              height: 2px;
+              color: #F3F4F6; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .repeatWorkout button img {
+              margin-right: 10px; }
+        .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder {
+          padding: 30px;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .stretchTime {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 30px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .stretchTime .stretchIcon {
+              margin-right: 20px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .stretchTime p {
+              font-family: "Sofia Pro", sans-serif;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #000000;
+              margin-bottom: 0;
+              margin-right: 48px; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .reminderInfo {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            margin-right: 30px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .reminderInfo p {
+              font-family: "Sofia Pro", sans-serif;
+              font-size: 24px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              margin-left: 10px; }
+              .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .reminderInfo p:nth-of-type(2) {
+                font-family: "Sofia Pro", sans-serif;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.5px;
+                color: #484848; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .setInfo {
+            width: 18%;
+            margin-left: 72px;
+            margin-right: 20px; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .setInfo p {
+              font-family: "Sofia Pro", sans-serif;
+              font-size: 13px;
+              line-height: 150%;
+              letter-spacing: 0.5px;
+              color: #484848;
+              margin-bottom: 0;
+              text-align: end; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .playExercise .showMobile {
+            display: none; }
+          .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .playExercise button {
+            outline: none;
+            border: none;
+            font-family: "Sofia Pro", sans-serif;
+            font-size: 18px;
+            line-height: 125%;
+            color: #000000;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: baseline; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .playExercise button:before {
+              display: inline-block;
+              content: "";
+              width: 100%;
+              height: 2px;
+              color: #F3F4F6; }
+            .trainingSchedule .fullWorkout .greyBorder .mainContent .reminder .playExercise button img {
+              margin-right: 10px; }
+  .trainingSchedule div.row:first-of-type > div.col-md-12:first-of-type > div.fullWorkout:nth-of-type(5) .workoutModelImg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout2Man.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .trainingSchedule div.row:first-of-type > div.col-md-12:first-of-type > div.fullWorkout:nth-of-type(7) .workoutModelImg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/workout3Man.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .trainingSchedule .restDay {
+    margin-bottom: 20px; }
+    .trainingSchedule .restDay:last-of-type {
+      margin-bottom: 0; }
+    .trainingSchedule .restDay .greyBorder {
+      background: #F2F6F8;
+      border-radius: 20px;
+      padding: 30px; }
+      .trainingSchedule .restDay .greyBorder .fWHeading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 30px; }
+        .trainingSchedule .restDay .greyBorder .fWHeading .workoutModelImg {
+          width: 180px;
+          height: 278px;
+          overflow: hidden;
+          border-radius: 20px;
+          margin-right: 20px;
+          background-image: url(../images/workout1Man.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .trainingSchedule .restDay .greyBorder .fWHeading .workoutModelImg.gr {
+            background: #00AA77; }
+          .trainingSchedule .restDay .greyBorder .fWHeading .workoutModelImg p {
+            font-family: "Sofia Pro Bold", sans-serif;
+            font-size: 24px;
+            line-height: 125%;
+            color: #FFFFFF; }
+        .trainingSchedule .restDay .greyBorder .fWHeading h4 {
+          font-family: "Sofia Pro Bold", sans-serif;
+          font-size: 32px;
+          line-height: 125%;
+          color: #DD4C56; }
+
 /*# sourceMappingURL=styles.css.map */
